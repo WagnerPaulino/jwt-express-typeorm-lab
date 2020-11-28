@@ -7,8 +7,14 @@ Steps to run this project:
 3. Run `npm start` command
 
 Create a migration
-```
-Run `npx typeorm migration:create -n CreateAdminUser` command
+```bash 
+`npx typeorm migration:create -n CreateAdminUser`
 ```
 
 https://medium.com/javascript-in-plain-english/creating-a-rest-api-with-jwt-authentication-and-role-based-authorization-using-typescript-fbfa3cab22a4
+
+
+For create a project like this
+```bash
+npx typeorm init --name jwt-express-typeorm --database sqlite --express
+```
